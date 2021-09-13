@@ -1,0 +1,60 @@
+.FlexContainer {
+    background: radial-gradient(circle, rgba(89,0,255,0.7763480392156863) 0%, rgba(32,32,32,1) 100%);
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+*{
+    margin: 0.1px;
+    
+}
+body{
+    /* margin: 40px; */
+}
+div{
+    height: 353px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+} 
+img{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 250px;
+    border-radius: 12px;
+}
+.A{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    flex-basis: 50%;
+} 
+.B{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap:wrap-reverse; */
+    flex-basis: 50%;
+}
+.A1{
+    flex-basis: 50%;
+}
+.A2{
+    flex-basis: 50%;
+} 
+.A3{
+    flex-basis: 50%;
+} 
+.A4{
+    flex-basis: 50%;
+} 
+.A1:hover,.A2:hover ,.A3:hover,.A4:hover{
+    opacity: 0.4;
+    transform: rotate(30deg) scale(1.1);
+    transition: 1s;
+}
